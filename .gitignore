@@ -1,0 +1,5 @@
+node_modules/
+.sonarlint
+.vscode
+coverage
+.nyc_output
