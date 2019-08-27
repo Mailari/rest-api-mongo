@@ -1,17 +1,4 @@
 
-/*
- * File: server.js
- * Project: node-todo-api
- * Created: Saturday, 2nd March 2019 9:52:09 am
- * Author: Mailari (mailari.hulihond@altorumleren.com)
- * Description: 
- * ----- this is main file for server application
- * Last Modified: Tuesday, 5th March 2019 9:29:30 am
- * Modified By: Mailari (mailari.hulihond@altorumleren.com)
- * -----
- * Copyright - 2019 Altorum leren pvt ltd
- */
-
 require('./config/config');
 
 const express = require('express');

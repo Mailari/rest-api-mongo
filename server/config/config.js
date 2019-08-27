@@ -1,15 +1,3 @@
-/*
- * File: config.js
- * Project: node-todo-api
- * Created: Saturday, 2nd March 2019 9:53:40 am
- * Author: Mailari (mailari.hulihond@altorumleren.com)
- * Description: 
- * -----
- * Last Modified: Tuesday, 5th March 2019 9:29:45 am
- * Modified By: Mailari (mailari.hulihond@altorumleren.com)
- * -----
- * Copyright - 2019 Altorum leren pvt ltd
- */
 
 var env = process.env.NODE_ENV || 'development';
 

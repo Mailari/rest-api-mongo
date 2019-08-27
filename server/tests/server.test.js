@@ -1,15 +1,3 @@
-/*
- * File: server.test.js
- * Project: node-todo-api
- * Created: Monday, 4th March 2019 11:53:56 am
- * Author: Mailari (mailari.hulihond@altorumleren.com)
- * Description: 
- * ----- this file include test cases for server.js
- * Last Modified: Tuesday, 5th March 2019 9:29:04 am
- * Modified By: Mailari (mailari.hulihond@altorumleren.com)
- * -----
- * Copyright - 2019 Altorum leren pvt ltd
- */
 
 const expect = require('expect');
 const request = require('supertest');

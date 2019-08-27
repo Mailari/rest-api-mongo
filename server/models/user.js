@@ -1,15 +1,3 @@
-/*
- * File: user.js
- * Project: node-todo-api
- * Created: Friday, 1st March 2019 11:27:10 am
- * Author: Mailari (mailari.hulihond@altorumleren.com)
- * Description: 
- * ----- user model 
- * Last Modified: Tuesday, 5th March 2019 10:05:17 am
- * Modified By: Mailari (mailari.hulihond@altorumleren.com)
- * -----
- * Copyright - 2019 Altorum leren pvt ltd
- */
 
 const mongoose = require('mongoose');
 const validator = require('validator');

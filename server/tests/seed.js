@@ -1,15 +1,4 @@
-/*
- * File: seed.js
- * Project: node-todo-api
- * Created: Tuesday, 5th March 2019 5:08:46 pm
- * Author: Mailari (mailari.hulihond@altorumleren.com)
- * Description: 
- * ----- it provides data required for testing the application to server/server.test.js
- * Last Modified: Tuesday, 5th March 2019 5:45:33 pm
- * Modified By: Mailari (mailari.hulihond@altorumleren.com)
- * -----
- * Copyright - 2019 Altorum leren pvt ltd
- */
+
 
 const { ObjectId } = require('mongodb');
 const jwt = require('jsonwebtoken');

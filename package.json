@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
-    "test": "export NODE_ENV=test  && nyc --reporter=lcov mocha server/**/*.test.js --timeout 10000 --exit",
-    "open": "export NODE_ENV=production  && node server/server.js"
+    "test": " mocha server/**/*.test.js --timeout 10000 --exit",
+    "open": " node server/server.js",
+    "cu":"cucumber ./"
   },
   "engines": {
     "node": "11.10.0"
@@ -17,6 +18,7 @@
     "bcrypt": "^3.0.4",
     "body-parser": "^1.18.3",
     "crypto-js": "^3.1.9-1",
+    "cucumber": "^5.1.0",
     "express": "^4.16.4",
     "jsonwebtoken": "^8.5.0",
     "lodash": "^4.17.11",
